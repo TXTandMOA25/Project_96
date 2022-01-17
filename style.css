@@ -1,0 +1,143 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #ff9292, #f8f1b3, #ecd1ff, #cefcd6, #bbe6fa);
+}
+
+.header
+{
+	color: rgb(1, 18, 77);
+	font-family: 'Emilys Candy', cursive;
+	text-shadow: #d7f7cd;
+	font-size: 50px;
+	letter-spacing: 4px;
+	margin-top: 80px;
+}
+.header img
+{
+	width: 80px;
+	margin-left: -15px;
+}
+
+.login_div
+{
+	background: #ffffff;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 7px;
+	border-color: rgb(244, 187, 252);
+	float: none;
+}
+
+.logo
+{
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#login_button
+{
+	background-color: #fcefb6;
+	width: 80%;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #ff9292;
+	color: rgb(0, 0, 0);
+	font-size: large;
+}
+
+.room_name
+{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Emilys Candy', cursive;
+}
+
+#logout
+{
+    background-color: #ffb9b6;
+    font-size: 20px; 
+    float: right;
+    font-family: 'Emilys Candy', cursive;
+}
+
+#output
+{
+    padding: 10px;
+     width:80%;
+     background: rgb(255, 255, 255);
+     border-radius: 15px;
+     font-family: 'Emilys Candy', cursive;
+
+}
+
+.input_div_room_page
+{
+    width: 80%;
+    color: rgb(1, 18, 77);
+    font-size: large;
+    font-family: 'Emilys Candy', cursive;
+
+}
+
+.input_div label
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.input_div_message_page
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: bisque;
+    border-style: solid;
+    border-width: 7px;
+    border: rgb(1, 18, 77);
+}
+
+.input_div_message_page label
+{
+    color: rgb(0, 0, 0);
+    width: 2px;
+    font-family: 'Emilys Candy', cursive;
+}
+.input_div_message_page #msg
+{
+    width: 80%;
+
+}
+.input_div_message_page button
+{
+    margin-top: 10px;
+    width: 50%; 
+    background-color: rgb(158, 253, 163);
+    color: rgb(1, 18, 77);
+    font-family: 'Emilys Candy', cursive;
+    font-size: large;
+    font-weight: 600;
+}
+.color_white
+{
+    color: white
+}
+
+.user_tick
+{
+    padding-left: 5px;
+    width: 20px;
+    color: rgb(2, 25, 107);
+}
+.message_h4
+{
+    padding-left:5px;
+    color:rgb(0, 0, 0);
+}
